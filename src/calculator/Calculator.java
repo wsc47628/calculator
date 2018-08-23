@@ -34,10 +34,12 @@ class Calculator {
 
 
         }
-        double c = Double.parseDouble(expression[4]);
+
         if (expression.length < 4) {
             return String.valueOf(resault);
+
         }
+        double c = Double.parseDouble(expression[4]);
         switch (expression[3]) {
             case "+":
                 resault = resault + c ;
