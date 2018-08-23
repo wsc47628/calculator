@@ -14,7 +14,6 @@ class Calculator {
         System.out.println(expression[2]);
         double a = Double.parseDouble(expression[0]);
         double b = Double.parseDouble(expression[2]);
-        double c = Double.parseDouble(expression[4]);
         double resault ;
         switch (expression[1]) {
             case "+":
